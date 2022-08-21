@@ -3,10 +3,10 @@
 */
 public class Hello
 {
-     // main方法
-     public static void main(String args[])
-     {
-          System.out.println("Hello World!");
-          // 输出字符串“Hello World!”
-     }
+    // main方法
+    public static void main(String args[])
+    {
+        System.out.println("Hello World!");
+        // 输出字符串“Hello World!”
+    }
 }

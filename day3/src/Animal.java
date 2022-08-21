@@ -18,6 +18,7 @@ public class Animal
     {
         System.out.println("无参数构造方法");
     }
+
     //行为
     public String getName()
     {
@@ -33,12 +34,12 @@ public class Animal
     public void sleep()
     {
         //快捷输入 sout
-        System.out.println( name + " sleep ");
+        System.out.println(name + " sleep ");
     }
 
     public void eat()
     {
-        System.out.println( name + " eat ");
+        System.out.println(name + " eat ");
     }
 
     //static静态方法
@@ -46,5 +47,6 @@ public class Animal
     {
         System.out.println(" run ");
     }
+
     public static String neek_name;
 }
