@@ -26,3 +26,8 @@ target
 .idea
 *.iml
 out
+
+.project
+.png
+.ets
+.pro
