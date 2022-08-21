@@ -9,6 +9,7 @@ public class AnimalTest
 
         //私有的只能内部使用
 //        sheep.age = 18;
-
+        Animal.neek_name = "小黑";
+        Animal.run();
     }
 }

@@ -4,5 +4,6 @@ public class DogTest
         Dog dog1 = new Dog();
         dog1.setName("小狗钱钱");
         dog1.sleep();
+        dog1.eat();
     }
 }
