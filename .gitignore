@@ -31,3 +31,7 @@ out
 .png
 .ets
 .pro
+build-profile.json5
+hvigorfile.js
+package*
+gradlew*
