@@ -32,6 +32,7 @@ out
 .ets
 .pro
 build-profile.json5
+gradle.properties
 hvigorfile.js
 package*
 gradlew*
