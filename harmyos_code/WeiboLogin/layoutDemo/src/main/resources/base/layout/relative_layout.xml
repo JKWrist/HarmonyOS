@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <Text
+        ohos:id="$+id:text_helloworld1"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="#FFB33333"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="$string:mainability_HelloWorld"
+        ohos:text_size="40vp"
+        />
+    <Text
+        ohos:id="$+id:text_helloworld2"
+        ohos:right_of="$+id:text_helloworld1"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="#FF268D27"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="111111"
+        ohos:text_size="40vp"
+        />
+    <Text
+        ohos:id="$+id:text_helloworld3"
+        ohos:below="$id:text_helloworld1"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="#FF8A18BA"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="33"
+        ohos:text_size="40vp"
+        />
+</DependentLayout>

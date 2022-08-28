@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:sky"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:top_padding="20vp"
+        ohos:bottom_padding="20vp"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:top_margin="20vp">
+        <Text
+            ohos:id="$+id:text_helloworld"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:top_padding="100vp"
+            ohos:text="欢迎回来"
+            ohos:layout_alignment="center"
+            ohos:italic="true"
+            ohos:text_size="40vp"
+            ohos:text_color="#ffffff"
+            ohos:top_margin="20vp"
+            ohos:bottom_margin="20vp"
+
+            />
+
+        <DirectionalLayout
+            ohos:top_padding="20vp"
+            ohos:bottom_padding="20vp"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:input_btn"
+            ohos:top_margin="20vp"
+            ohos:bottom_margin="20vp"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:text="手机号码"
+                ohos:id="$+id:changePageTxt1"
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:text_size="20fp"
+                ohos:text_color="#FFFFFF"
+                ohos:text_weight="700"
+                ohos:text_font="sans-serif"
+                ohos:left_margin="15vp"
+                ohos:right_padding="15vp"
+                ohos:left_padding="15vp"
+                ohos:text_alignment="center"
+                ohos:multiple_lines="false"
+                ohos:max_text_lines="1"/>
+
+            <TextField
+                ohos:hint="请输入用户名"
+                ohos:id="$+id:phoneTxt"
+                ohos:hint_color="#ffffff"
+                ohos:height="match_content"
+                ohos:text_size="20fp"
+                ohos:basement="#cccccc"
+                ohos:text_color="#000000"
+                ohos:left_margin="15vp"
+                ohos:right_padding="15vp"
+                ohos:left_padding="15vp"
+                ohos:width="match_parent"></TextField>
+        ></DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:top_padding="20vp"
+            ohos:bottom_padding="20vp"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal"
+            ohos:top_margin="20vp"
+            ohos:bottom_margin="20vp"
+            ohos:background_element="$graphic:input_btn">
+            <Text
+                ohos:text="密码"
+                ohos:id="$+id:changePageTxt2"
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:text_size="20fp"
+                ohos:text_color="#FFFFFF"
+                ohos:text_weight="700"
+                ohos:text_font="sans-serif"
+                ohos:left_margin="15vp"
+                ohos:right_padding="15vp"
+                ohos:left_padding="15vp"
+                ohos:text_alignment="center"
+                ohos:multiple_lines="false"
+                ohos:max_text_lines="1"/>
+
+            <TextField
+                ohos:hint="请输入密码"
+                ohos:id="$+id:passwdTxt"
+                ohos:hint_color="#ffffff"
+                ohos:height="match_content"
+                ohos:text_size="20fp"
+                ohos:basement="#cccccc"
+                ohos:text_color="#000000"
+                ohos:left_margin="15vp"
+                ohos:right_padding="15vp"
+                ohos:left_padding="15vp"
+                ohos:width="match_parent"></TextField>
+            </DirectionalLayout>
+    </DirectionalLayout>
+
+    <Button
+        ohos:top_margin="20vp"
+        ohos:bottom_margin="20vp"
+        ohos:height="50vp"
+        ohos:width="160vp"
+        ohos:id="$+id:loginbtn"
+        ohos:padding="10vp"
+        ohos:background_element="$graphic:login_btn"
+        ohos:hint="登录"
+        ohos:layout_alignment="center"
+        ohos:text_size="20fp"
+        ohos:hint_color="#ffffff"></Button>
+
+</DirectionalLayout>

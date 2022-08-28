@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Image
+        ohos:background_element="#FF1723D9"
+        ohos:height="200vp"
+        ohos:width="200vp"
+        ohos:image_src="$media:AdelaideVineyard"
+        ohos:scale_mode="inside"
+        ></Image>
+
+    <TextField
+        ohos:height="200vp"
+        ohos:width="200vp"
+        ohos:hint="请输入名字"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:input_btn"
+        ></TextField>
+</DirectionalLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="horizontal">
+
+    <Text
+        ohos:weight="1"
+        ohos:id="$+id:text_hellotc"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_color="#ffffff"
+        ohos:text="hello world"
+        ohos:background_element="#FF10E931"
+        ohos:text_weight="80"
+        ohos:left_margin="20vp"
+        ohos:multiple_lines="true"
+        ohos:text_size="20fp"
+        />
+
+    <Text
+        ohos:weight="1"
+        ohos:id="$+id:text_hellotc1"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="#FF9912E2"
+        ohos:text="hello world"
+        ohos:right_margin="20vp"
+        ohos:left_margin="20vp"
+        ohos:bottom_padding="20vp"
+        ohos:top_padding="20vp"
+        ohos:left_padding="20vp"
+        ohos:right_padding="20vp"
+        ohos:multiple_lines="true"
+        ohos:text_size="20fp"
+        ohos:text_font="HwChinese-medium"
+        />
+
+    <Text
+        ohos:weight="1"
+        ohos:id="$+id:text_hellotc2"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="#FF660625"
+        ohos:text="hello world"
+        ohos:multiple_lines="true"
+        ohos:text_size="20fp"
+        />
+</DirectionalLayout>

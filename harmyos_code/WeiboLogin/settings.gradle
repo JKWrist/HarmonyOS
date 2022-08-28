@@ -1,0 +1,4 @@
+rootProject.name = 'WeiboLogin'
+include ':entry'
+include ':layoutDemo'
+include ':visual_test'

@@ -1,0 +1,48 @@
+{
+  "app": {
+    "bundleName": "com.example.weibologin",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.example.layoutdemo",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.layoutdemo.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "layoutDemo",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "name": "com.example.layoutdemo.MainAbility",
+        "description": "$string:mainability_description",
+        "icon": "$media:icon",
+        "label": "$string:layoutDemo_MainAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      }
+    ]
+  }
+}

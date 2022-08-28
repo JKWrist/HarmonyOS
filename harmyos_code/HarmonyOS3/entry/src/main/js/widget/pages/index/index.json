@@ -1,0 +1,17 @@
+{
+  "data": {
+    "title": "Title",
+    "detail": "Text",
+    "iconTitle": "Picture"
+  },
+  "actions": {
+    "routerEvent": {
+      "action": "router",
+      "bundleName": "com.example.myapplication3",
+      "abilityName": "com.example.myapplication3.MainAbility",
+      "params": {
+        "message": "add detail"
+      }
+    }
+  }
+}
