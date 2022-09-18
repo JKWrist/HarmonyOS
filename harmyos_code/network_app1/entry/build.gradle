@@ -1,0 +1,40 @@
+apply plugin: 'com.huawei.ohos.hap'
+apply plugin: 'com.huawei.ohos.decctest'
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\harrytc\\.ohos\\config\\auto_debug_cookbook_2850086000486995592.p12')
+            storePassword '0000001BADCE0F9EA2DB88B3FD9E51261D94A7D6BC70205310734E763F71B72C1004DB5FC275108473257B'
+            keyAlias = 'debugKey'
+            keyPassword '0000001B9D89BAC0566A1FB6AEC2E5B16DE37F8324361508BC2DBC52A5DAF0BC9334D6E0234D772828BB85'
+            signAlg = 'SHA256withECDSA'
+            profile file('C:\\Users\\harrytc\\.ohos\\config\\auto_debug_cookbook_2850086000486995592.p7b')
+            certpath file('C:\\Users\\harrytc\\.ohos\\config\\auto_debug_cookbook_2850086000486995592.cer')
+        }
+    }
+    compileSdkVersion 6
+    defaultConfig {
+        compatibleSdkVersion 6
+    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled false
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    testImplementation 'junit:junit:4.13.1'
+    ohosTestImplementation 'com.huawei.ohos.testkit:runner:2.0.0.200'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation('com.gitee.chinasoft_ohos:BaseOkHttpV3:1.0.1')
+}
+
+decc {
+    supportType = ['html', 'xml']
+}

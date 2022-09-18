@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <StackLayout
+        ohos:id="$+id:stack_layout"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:weight="1"
+        ></StackLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:padding="10fp"
+        ohos:orientation="horizontal">
+
+        <DirectionalLayout
+            ohos:id="$+id:xiaowanzi"
+            ohos:alignment="center"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1">
+
+            <Image
+                ohos:id="$+id:image1"
+                ohos:height="100vp"
+                ohos:width="100vp"
+                ohos:image_src="$media:xiaowanzi"
+                ></Image>
+
+            <Text
+                ohos:id="$+id:txt1"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="小丸子"
+                ohos:text_size="18fp"></Text>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:makalong"
+            ohos:alignment="center"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1">
+
+            <Image
+                ohos:id="$+id:image2"
+                ohos:height="100vp"
+                ohos:width="100vp"
+                ohos:image_src="$media:makalong"
+                ></Image>
+
+            <Text
+                ohos:id="$+id:txt2"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="马卡龙"
+                ohos:text_size="18fp"></Text>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:alignment="center"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:weight="1"
+            ohos:id="$+id:shengjian">
+
+            <Image
+                ohos:id="$+id:image3"
+                ohos:height="100vp"
+                ohos:width="100vp"
+                ohos:image_src="$media:shengjian"
+                ></Image>
+
+            <Text
+                ohos:id="$+id:txt3"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="生煎"
+                ohos:text_size="18fp"></Text>
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+
+</DirectionalLayout>
